@@ -18,7 +18,7 @@ function App() {
         <Header />
         <Routes>
             <Route index element={<Req />}/>
-            <Route path={'/form'} element={<Form />}/>
+            <Route path={'form'} element={<Form />}/>
         </Routes>
     </div>
   );
